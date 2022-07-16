@@ -1,4 +1,5 @@
-import { Video } from './classes/video'
+import 'module-alias/register';
+import { Video } from '@/classes/video'
 
 export class TestVideoClient {
 	apiKey: string;

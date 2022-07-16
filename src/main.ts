@@ -1,11 +1,12 @@
+import 'module-alias/register';
 import { Client, Intents } from 'discord.js';
-import { TestVideoClient } from './testVideoClient';
+import { TestVideoClient } from '@/testVideoClient';
 
-import secret from './secret.json';
+import secret from '@/secret.json';
 
-import { getVideoIDFromUrl } from './functions';
-import { deleteAfter as deleteMsgAfter } from './message/utils';
-import { sentAskingMsg } from './message/askingMessage';
+import { getVideoIDFromUrl } from '@/functions';
+import { deleteAfter as deleteMsgAfter } from '@/message/utils';
+import { sentAskingMsg } from '@/message/askingMessage';
 
 
 const testVideoClient = new TestVideoClient('');

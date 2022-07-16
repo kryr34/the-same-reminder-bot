@@ -7,6 +7,10 @@
     /* Modules */
     "module": "commonjs",
     "rootDir": "./src",
+	"baseUrl": "./src",
+	"paths" :{
+		"@/*": ["./*"]
+	},
     "moduleResolution": "node",
     "resolveJsonModule": true,
 
